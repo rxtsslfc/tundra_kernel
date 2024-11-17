@@ -18,7 +18,7 @@ jobs:
           kernel-url: https://github.com/rxtsslfc/tundra_kernel
           kernel-dir: msm-5.4.233
           kernel-branch: thirteen-plus
-          config: stock_tundra_defconfig
+          config: vendor/lineage_tundra.config
           arch: arm64
           aosp-gcc: true
           aosp-clang: true
