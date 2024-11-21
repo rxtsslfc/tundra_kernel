@@ -16,13 +16,13 @@ jobs:
       uses: dabao1955/kernel_build_action@main
       with:
           kernel-url: https://github.com/rxtsslfc/tundra_kernel
-          kernel-dir: msm-5.4.233
-          kernel-branch: android-13-rebase
-          config: stock_tundra_defconfig
+          kernel-dir: msm-5.4.210
+          kernel-branch: thirteen-plus
+          config: vendor/lahaina-qgki_defconfig
           arch: arm64
           aosp-gcc: true
           aosp-clang: true
-          android-version: 13
-          aosp-clang-version: r450784d
+          android-version: 14
+          aosp-clang-version: r487747c
           disable-lto: true
           anykernel3: true
